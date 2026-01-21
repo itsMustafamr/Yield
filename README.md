@@ -6,12 +6,6 @@ A machine learning project for predicting crop yield from environmental and agro
 
 This project explores different machine learning models for yield prediction:
 
-| Model | Val R² | Test R² | Notes |
-|-------|--------|---------|-------|
-| **PyTorch MLP** | 0.8243 | 0.8277 | Best performance |
-| **TabPFN** | 0.7775 | 0.7798 | Strong tabular foundation model |
-| **TabDPT** | ~0.70 | - | Transformer-based approach |
-
 ## Dataset
 
 - **Size**: ~23M time-series rows aggregated to ~86k sequences
