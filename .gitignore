@@ -9,3 +9,7 @@
 .env.development
 .env.test
 .env.production
+
+Old_files/.DS_Store
+
+
