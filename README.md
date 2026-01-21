@@ -107,5 +107,4 @@ This project is for research purposes.
 If you use this code in your research, please cite the associated paper.
 
 **Institutional Affiliation:**  
-This repository is developed as part of academic research conducted at  
-**Iowa State University (ISU)**.
+This repository is developed as part of academic research conducted at Iowa State University (ISU).
