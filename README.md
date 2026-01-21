@@ -17,13 +17,14 @@ This project explores different machine learning models for yield prediction.
   - 40 cluster indicator features
   - Target: Yield
 
-**Note**: 
+**Note**:
 The dataset files (`train.csv`, `val.csv`, `test.csv`) are not included in this repository due to size constraints.
 You should be able to try it on any agricultural tabular data.
 
 ## Installation
 
 ### Prerequisites
+
 - Python 3.9+
 - pip
 
@@ -82,14 +83,17 @@ python tabdpt_quant.py
 ## Key Experiments
 
 ### 1. TabPFN with Quantization
+
 Explores feature quantization at different bit-depths (2, 4, 6, 8, 16, 32, 64, 128, 256 bits). Findings show quantization saturates around 4-6 bits with minimal performance loss.
 
 ### 3. TabDPT Experiments
+
 Transformer-based tabular model with sequence aggregation and optional quantization preprocessing.
 
 ## Data Preprocessing
 
 The time-series data is aggregated per sequence (TimeSeriesLabel):
+
 - **Temporal features**: mean and std computed across 214 timesteps
 - **Static features**: first value or mode taken
 - **Missing values**: imputed with mode (MG), median (Longitude), or mean (plant features)
@@ -102,3 +106,6 @@ This project is for research purposes.
 
 If you use this code in your research, please cite the associated paper.
 
+**Institutional Affiliation:**  
+This repository is developed as part of academic research conducted at  
+**Iowa State University (ISU)**.
