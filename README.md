@@ -83,18 +83,6 @@ python tabdptfull.py
 python tabdpt_quant.py
 ```
 
-### Running Notebooks
-
-```bash
-# Start Jupyter
-jupyter notebook
-
-# Then open any notebook:
-# - tabPFN_RealMLP.ipynb (recommended - best results)
-# - tabPFN_allfeature.ipynb
-# - tabPFN_quantization.ipynb
-```
-
 ## Key Experiments
 
 ### 1. TabPFN with Quantization
