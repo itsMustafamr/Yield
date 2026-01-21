@@ -17,7 +17,9 @@ This project explores different machine learning models for yield prediction.
   - 40 cluster indicator features
   - Target: Yield
 
-**Note**: The dataset files (`train.csv`, `val.csv`, `test.csv`) are not included in this repository due to size constraints.
+**Note**: 
+The dataset files (`train.csv`, `val.csv`, `test.csv`) are not included in this repository due to size constraints.
+You should be able to try it on any agricultural tabular data.
 
 ## Installation
 
