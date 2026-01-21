@@ -84,13 +84,6 @@ python tabdpt_quant.py
 ### 1. TabPFN with Quantization
 Explores feature quantization at different bit-depths (2, 4, 6, 8, 16, 32, 64, 128, 256 bits). Findings show quantization saturates around 4-6 bits with minimal performance loss.
 
-### 2. PyTorch MLP
-4-layer MLP with:
-- StandardScaler preprocessing
-- Batch normalization and dropout
-- AdamW optimizer with LR scheduling
-- Early stopping (patience=20)
-
 ### 3. TabDPT Experiments
 Transformer-based tabular model with sequence aggregation and optional quantization preprocessing.
 
