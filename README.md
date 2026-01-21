@@ -4,7 +4,7 @@ A machine learning project for predicting crop yield from environmental and agro
 
 ## Project Overview
 
-This project explores different machine learning models for yield prediction:
+This project explores different machine learning models for yield prediction.
 
 ## Dataset
 
